@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: khaki;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+}
+
+.chapter {
+    color: blue;
+}
+
+#begin {
+    color: lime;
+    font-weight: bold;
+}
+
+/* Спаны-шрифты */
+.textBold {
+    font-weight: bold;
+}
+
+.textItalic {
+    font-style: italic;
+}
+
+.textUnderLine {
+    text-decoration: underline;
+}
+
+.textLineThrought {
+    text-decoration: line-through;
+}
+
+.textMark {
+    background-color: yellow;
+}
+
+.box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    background-color: limegreen;
+    margin: 20px;
+    padding: 20px;
+    border-width: 3px;
+    border-color: darkblue;
+    border-style: dashed;
+    z-index: 3;
+}
+
+.pink {
+    color: pink;
+    background-color: grey;
+}
+
+a {
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+}
+
+nav {
+    position: relative;
+    left: 40px;
+}
+
+.red {
+    background-color: red;
+    width: 40vw;
+    height: 30vh;
+}
+
+.example  {
+    position: relative;
+}
